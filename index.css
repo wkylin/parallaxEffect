@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Oswald;
+  perspective: 1px;
+}
+.section {
+  position: relative;
+  padding: 5%;
+  min-height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  /* box-shadow: 0 5px 1px rgba(0, 0, 0, 0.7), 0 -5px 1px rgba(0, 0, 0, 0.7); */
+  background: 50% 50% / cover;
+  /* background-size: 100% 100%; */
+
+}
+
+#title {
+  background-image: url(images/1.jpg);
+  background-attachment: fixed;
+}
+#section1 {
+  background-image: url(images/2.jpg);
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+#section2 {
+  background-image: url(images/3.jpg);
+  background-attachment: fixed;
+}
+#section3 {
+  background-image: url(images/4.jpg);
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+#section4 {
+  background-image: url(images/5.jpg);
+  background-attachment: fixed;
+}
+
+#section5 {
+  background-image: url(images/6.jpg);
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+#section6 {
+  background-image: url(images/7.jpg);
+  background-attachment: fixed;
+}
+#section7 {
+  background-image: url(images/8.jpg);
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+#section8 {
+  background-image: url(images/9.jpg);
+  background-attachment: fixed;
+}
+#section9 {
+  background-image: url(images/10.jpg);
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
